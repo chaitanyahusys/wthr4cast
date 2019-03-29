@@ -1,0 +1,11 @@
+{
+    "name": "weather forecast",
+    "description": "A very simple webhook that gets you the details of a specified City Weather condition.",
+    "repository": "",
+    "keywords": [
+        "weather",
+        "forecast",
+        "chatbot",
+        "webhook"
+    ]
+}

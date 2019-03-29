@@ -1,0 +1,21 @@
+{
+  "name": "wthr4cst",
+  "version": "1.0.0",
+  "description": "A Node Based Webhook that fetches the details of Weather in a City",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "nodejs",
+    "city"
+  ],
+  "author": "Code (fullongits)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
