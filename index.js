@@ -43,6 +43,7 @@ server.post('/get-weather-details', (req, res) => {
         });
     });
 });
-server.listen((process.env.PORT || 8000), () => {
-    console.log("Server is up and running...");
+const PORT = process.env.PORT || 8000;
+server.listen(PORT, () => {
+    console.log(`Server is running on port ${ PORT }`);
 });
